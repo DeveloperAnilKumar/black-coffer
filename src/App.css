@@ -1,0 +1,48 @@
+.app-container {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  margin-top: 10px;
+}
+
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: auto;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+select {
+  padding: 8px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.chart-container {
+  margin-top: 20px;
+}
+
+.chart {
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+header {
+  background-color: #fbfbfb;
+
+  padding: 10px 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+  padding: 10px;
+  text-transform: capitalize;
+}
